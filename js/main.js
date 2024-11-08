@@ -5,7 +5,8 @@
 	  
 	  
 	  /*Replace with your own view lines!*/
-	  var viewLines = "https://services.arcgis.com/WQ9KVmV6xGGMnCiQ/ArcGIS/rest/services/UKCoastalViews_Lines/FeatureServer/0"
+	  // var viewLines = "https://services.arcgis.com/WQ9KVmV6xGGMnCiQ/ArcGIS/rest/services/UKCoastalViews_Lines/FeatureServer/0"
+              var viewLines = "https://services1.arcgis.com/iNWpti7T6X4xmP8G/arcgis/rest/services/trajets_pendulaires_vue/FeatureServer/0"
 
 
       require([
@@ -34,7 +35,7 @@
 
           //create map
           map = new Map("map", {
-              center: [-4.2, 53.9],
+              center: [3, 49],
               zoom: 3,
               minZoom: 2
           });
