@@ -48,7 +48,7 @@
 
 
           //load custom tiled basemap
-		  var tiled = new ArcGISTiledMapServiceLayer("http://tiles.arcgis.com/tiles/WQ9KVmV6xGGMnCiQ/arcgis/rest/services/CoastalViewsBasemap/MapServer");
+		  var tiled = new ArcGISTiledMapServiceLayer("https://tiles.arcgis.com/tiles/WQ9KVmV6xGGMnCiQ/arcgis/rest/services/CoastalViewsBasemap/MapServer");
           map.addLayer(tiled);
 
           //load feature layer
